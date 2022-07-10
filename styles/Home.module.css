@@ -11,10 +11,10 @@
   cursor: pointer;
   color: aliceblue;
   transition: color 0.5s;
-};
+}
 
 .branding:hover {
-  color: blueviolet;
+  color: rgb(94, 255, 0);
 }
 
 .main {
