@@ -3,25 +3,60 @@
   background-color: black;
 }
 
-.branding {
+.header {
   margin: 0;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.svg {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.notRightHeader {
+  display:flex;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+}
+
+.rightHeader {
+  display:flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.branding {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  color: rgb(94, 255, 0);
+  transition: color 0.5s;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  color: aliceblue;
-  transition: color 0.5s;
 }
 
 .branding:hover {
-  color: rgb(94, 255, 0);
+  color: rgb(255, 0, 221);
+}
+
+#menuh3 {
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
